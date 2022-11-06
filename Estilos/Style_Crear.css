@@ -1,0 +1,128 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 0px;
+}
+.Titulo {
+	font-size: 40px;
+	background: red;
+	font-family: Time New Roman;
+	background: #16CCD5;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+
+}
+
+.nav{
+	background: #BB810E;
+	padding: 7px 0px;
+	height: 5vh;
+	border-bottom: solid 2px black;
+	border-top: solid 2px black;
+}
+
+.nav_lista{
+	
+	text-align: center;
+	list-style: none;
+
+
+}
+
+.nav_lista_objeto{
+	display: inline-block;
+	text-align: center;
+	padding-left: 28px;
+	font-size: 14px;
+	text-decoration: none;
+	
+}
+.nav_lista_objeto a{
+	text-decoration: none;
+	color: black;
+
+}
+.main{
+	background: linear-gradient(70deg, #D1EEED, #D8D8D8);
+	text-align: center;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+}
+.caja_formulario{
+
+	border-radius: 20px;
+	border: 4px solid black;
+	width: 300px;
+	height: 450px;
+	background: #16CCD5;
+	position: absolute;
+	top: 10%;
+	position: absolute;
+	
+
+}
+.formulario{
+	
+
+}
+.div_titulo_formulario{
+	background: #BB810E;
+	border: 4px double black;
+	border-radius: 20px;
+	width: 220px;
+	height: 35px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.titulo_formulario{
+	text-align: center;
+	font-size: 23px;
+	
+
+}
+.txt{
+	font-family: Time New Roman;
+	font-size: 15px;
+	padding-top: 13px;
+	padding-bottom: 5px;
+	
+}
+.cuadro{
+	height: 30px;
+	
+	border: black solid 2px;
+	border-radius: 5px;
+	padding: 0;
+	margin: 0;
+	outline: none;
+	background: #76F0F5;
+
+
+}
+.boton_enviar{
+	margin-top: 20px;
+	height: 50px;
+	width: 95px;
+	border-radius: 20px;
+	font-size: 20px;
+	font-family: Futura PT Font;
+	background: #BB810E;
+}
+.boton_enviar:hover{
+	background: #76F0F5;
+
+}
+#txt_descripcion{
+	height: 50px;
+	size: 10px
+	white-space:initial;
+	text-align: initial;
+	text-align: center;
+
+}

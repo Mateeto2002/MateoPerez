@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.Titulo {
+	font-size: 40px;
+	background: red;
+	font-family: Time New Roman;
+	background: #16CCD5;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+
+}
+
+.nav{
+	background: #BB810E;
+	padding: 7px 0px;
+	height: 5vh;
+	border-bottom: solid 2px black;
+	border-top: solid 2px black;
+}
+
+.nav_lista{
+	
+	text-align: center;
+	list-style: none;
+
+
+}
+
+.nav_lista_objeto{
+	display: inline-block;
+	text-align: center;
+	padding-left: 28px;
+	font-size: 14px;
+	text-decoration: none;
+	
+}
+.nav_lista_objeto a{
+	text-decoration: none;
+	color: black;
+}
+
+.main{
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+
+.Caja{
+	height: 85vh;
+	background: linear-gradient(70deg, #D1EEED, #D8D8D8);
+	width: 80vh;
+	
+}
+
+.busqueda{
+	text-align: center;
+	font-size: 25px;
+	margin: 25px;
+}
+
+.Formulario_buscar{
+	margin-left: 20px;
+	
+}

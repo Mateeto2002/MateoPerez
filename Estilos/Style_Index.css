@@ -1,0 +1,115 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 0px;
+}
+
+.Titulo {
+	font-size: 40px;
+	background: red;
+	font-family: Time New Roman;
+	background: #16CCD5;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+
+}
+
+.nav{
+	background: #BB810E;
+	padding: 7px 0px;
+	height: 5vh;
+	border-bottom: solid 2px black;
+	border-top: solid 2px black;
+}
+
+.nav_lista{
+	
+	text-align: center;
+	list-style: none;
+
+
+}
+
+.nav_lista_objeto{
+	display: inline-block;
+	text-align: center;
+	padding-left: 28px;
+	font-size: 14px;
+	text-decoration: none;
+	
+}
+.nav_lista_objeto a{
+	text-decoration: none;
+	color: black;
+
+}
+.main{
+	justify-content: center;
+	display: flex;
+	background: grey;
+
+}
+.caja{
+	background: orange;
+	width: 100vh;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+
+}
+
+.cajas{
+	width: 150px;
+	height: 200px;
+	margin: 10px;
+	background: red;
+	
+
+
+
+}
+.caja1{
+	width: 150px;
+	height: 150px;
+
+
+}
+
+.caja_restaurante1{
+	width: 150px;
+	height: 150px;
+	border: solid black 3px;
+	background: blue;	
+	background-image: url(../Imagenes/Restaurante_1.jpg);
+	background-size: 100% 100%;
+
+	
+	}
+
+	
+
+.caja_datos{
+	padding: 5px;
+	background: orange;
+	width: 150px;
+	height: 50px;
+	font-size: 11px;
+	text-align: center;
+
+}
+
+.caja_restaurante2{
+	width: 150px;
+	height: 150px;
+	border: solid black 3px;
+	background: white;	
+	background-image: url(../Imagenes/Mcdonalds.png);
+	background-size: 100% 100%;
+
+	
+	}
